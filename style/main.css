@@ -1,0 +1,64 @@
+html {
+    color: white;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.88);
+    min-height: 100vh;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+#navbar {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    width: 90%;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_items {
+    margin: 0;
+    padding: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 100%;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.navbar_items:hover {
+    background-color: white;
+    color: black;
+}
+
+#content {
+    width: 50%;
+    margin-top: 50px;
+}
+
+#name {
+    text-align: center;
+    margin-top: 130px;
+}
+
+#welcome_message {
+    text-align: center;
+}
+
+footer {
+    margin-top: auto;
+}
