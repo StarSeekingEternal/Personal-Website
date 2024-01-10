@@ -69,5 +69,17 @@ document.getElementById("nav_interests").onclick = function() {
 }
 
 document.getElementById("nav_credits").onclick = function() {
-    window.location.href = "./credits.html";
+    document.getElementById("content").innerHTML = `
+    <div id="credits">
+        <h2>Credits</h2>
+        <div>
+            <p>Icon:</p>
+            <ul>
+                <li>
+                    <a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by Kiranshastry - Flaticon</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    `;
 }
