@@ -18,6 +18,10 @@ body {
     row-gap: 10px;
 }
 
+a {
+    color: white;
+}
+
 #navbar {
     margin: 0;
     margin-top: 10px;
@@ -61,4 +65,12 @@ body {
 
 footer {
     margin-top: auto;
+}
+
+#credits_title {
+    margin-top: 50px;
+}
+
+#credits_content {
+    width: 50%;
 }

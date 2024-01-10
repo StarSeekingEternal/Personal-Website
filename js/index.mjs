@@ -9,7 +9,8 @@ document.getElementById("nav_about_me").onclick = function() {
     document.getElementById("content").innerHTML = `
     <div id="about_me">
         <h2>About Me</h2>
-        <p>Hi, my name is Ethan. I am currently a 3rd year CS student studying at UTSC, and I am interested in pursuing a career in web development and software engineering.</p>
+        <p>Hi, my name is Ethan. I am currently a 3rd year CS student studying at UTSC, and I am interested in pursuing a career in web development and software engineering.
+        As of the moment, I am looking for a Summer 2024 co-op opportunity in a position related to Computer Science.</p>
     </div>
     `;
 }
@@ -24,6 +25,8 @@ document.getElementById("nav_skills").onclick = function() {
             <li>CSS</li>
             <li>Javascript</li>
             <li>Node.js</li>
+            <li>Express.js</li>
+            <li>Rest API</li>
             <li>React</li>
         </ul>
 
@@ -35,26 +38,7 @@ document.getElementById("nav_skills").onclick = function() {
             <li>C</li>
             <li>Haskell (basic)</li>
             <li>SQL</li>
-        </ul>
-
-        <p>General Programming:</p>
-        <ul>
-            <li>Git</li>
-            <li>Java</li>
-            <li>Python</li>
-            <li>C</li>
-            <li>Haskell (basic)</li>
-            <li>SQL</li>
-        </ul>
-
-        <p>General Programming:</p>
-        <ul>
-            <li>Git</li>
-            <li>Java</li>
-            <li>Python</li>
-            <li>C</li>
-            <li>Haskell (basic)</li>
-            <li>SQL</li>
+            <li>MySQL</li>
         </ul>
 
         <p>Other:</p>
@@ -82,4 +66,8 @@ document.getElementById("nav_interests").onclick = function() {
         </ul>
     </div>
     `;
+}
+
+document.getElementById("nav_credits").onclick = function() {
+    window.location.href = "./credits.html";
 }
