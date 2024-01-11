@@ -67,6 +67,7 @@ document.getElementById("nav_interests").onclick = function() {
     </div>
     `;
 }
+//Photo by <a href="https://unsplash.com/@vorosbenisop?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Benjamin Voros</a> on <a href="https://unsplash.com/photos/snow-mountain-under-stars-phIFdC6lA4E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 document.getElementById("nav_credits").onclick = function() {
     document.getElementById("content").innerHTML = `
@@ -77,6 +78,12 @@ document.getElementById("nav_credits").onclick = function() {
             <ul>
                 <li>
                     <a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by Kiranshastry - Flaticon</a>
+                </li>
+            </ul>
+            <p>Background Picture:</p>
+            <ul>
+                <li>
+                Photo by <a href="https://unsplash.com/@vorosbenisop?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Benjamin Voros</a> on <a href="https://unsplash.com/photos/snow-mountain-under-stars-phIFdC6lA4E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
                 </li>
             </ul>
         </div>
