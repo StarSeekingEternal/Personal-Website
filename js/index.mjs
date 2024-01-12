@@ -19,28 +19,31 @@ document.getElementById("nav_skills").onclick = function() {
     document.getElementById("content").innerHTML = `
     <div id="skills">
         <h2>Skills</h2>
-        <p>Web Development:</p>
+        <p>Languages:</p>
         <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C</li>
+            <li>Haskell (Basic)</li>
+            <li>SQL</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>Javascript</li>
+        </ul>
+        <p>Technologies/Frameworks:</p>
+        <ul>
             <li>Node.js</li>
             <li>Express.js</li>
             <li>Rest API</li>
             <li>React</li>
-        </ul>
-
-        <p>General Programming:</p>
-        <ul>
-            <li>Git</li>
-            <li>Java</li>
-            <li>Python</li>
-            <li>C</li>
-            <li>Haskell (basic)</li>
-            <li>SQL</li>
+            <li>MongoDB</li>
             <li>MySQL</li>
         </ul>
-
+        <p>Developer Tools:</p>
+        <ul>
+            <li>Git</li>
+            <li>GitHub</li>
+        </ul>
         <p>Other:</p>
         <ul>
             <li>Google Suite</li>
