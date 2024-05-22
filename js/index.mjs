@@ -9,8 +9,8 @@ document.getElementById("nav_about_me").onclick = function() {
     document.getElementById("content").innerHTML = `
     <div id="about_me">
         <h2>About Me</h2>
-        <p>Hi, my name is Ethan. I am currently a 3rd year CS student studying at UTSC, and I am interested in pursuing a career in web development and software engineering.
-        As of the moment, I am looking for a Summer 2024 co-op opportunity in a position related to Computer Science.</p>
+        <p>Hi, my name is Ethan. I am currently a 3rd year CS student studying at UTSC, and I am interested in pursuing a career in the area of software development and web development.
+        As of the moment, I am looking for a Fall 2024 co-op opportunity in a position related to Computer Science.</p>
     </div>
     `;
 }
@@ -24,7 +24,6 @@ document.getElementById("nav_skills").onclick = function() {
             <li>Java</li>
             <li>Python</li>
             <li>C</li>
-            <li>Haskell (Basic)</li>
             <li>SQL</li>
             <li>HTML</li>
             <li>CSS</li>
@@ -36,6 +35,8 @@ document.getElementById("nav_skills").onclick = function() {
             <li>Express.js</li>
             <li>Rest API</li>
             <li>React</li>
+            <li>React Native</li>
+            <li>Next.js</li>
             <li>MongoDB</li>
             <li>MySQL</li>
         </ul>
@@ -62,6 +63,8 @@ document.getElementById("nav_interests").onclick = function() {
             <li>Web Novels</li>
             <li>Fanfiction</li>
             <li>Anime</li>
+            <li>Fitness</li>
+            <li>Martial Arts</li>
             <li>Cultivation</li>
             <li>Dao</li>
             <li>Food</li>
