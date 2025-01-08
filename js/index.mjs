@@ -9,8 +9,8 @@ document.getElementById("nav_about_me").onclick = function() {
     document.getElementById("content").innerHTML = `
     <div id="about_me">
         <h2>About Me</h2>
-        <p>Hi, my name is Ethan. I am currently a 3rd year CS student studying at UTSC, and I am interested in pursuing a career in the area of software development and web development.
-        As of the moment, I am looking for a Fall 2024 co-op opportunity in a position related to Computer Science.</p>
+        <p>Hi, my name is Ethan. I am currently a 4th year CS student studying at UTSC, and I am interested in pursuing a career in the area of software development and web development.
+        As of the moment, I am looking for a Summer 2025 co-op opportunity in a position related to Computer Science.</p>
     </div>
     `;
 }
